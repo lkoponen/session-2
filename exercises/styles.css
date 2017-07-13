@@ -1,0 +1,82 @@
+* {
+  margin: 0; /* These first three properties are a CSS reset, to override the default styles in the browser */
+  padding: 0;
+  box-sizing: border-box;/* Makes it so that the width of this element includes the padding and borders */
+  font-family: 'Fresca', sans-serif;
+  /*border: solid 1px red;*/ /* Using this can help you to more easily troubleshoot formatting issues. Make active when working, and comment out/delete when done */
+}
+body {
+  background-color: #452743; /* Dark Purple */
+}
+
+header {
+  text-align: center;
+  margin: 25px;
+}
+h1, h2 {
+  margin-bottom: 10px;
+  font-family: 'Rock Salt', cursive;
+}
+h1 {
+  color: #69643D; /* Dark Green */
+  font-size: 2.5em;
+}
+h2 {
+  color: #B0B85C; /* Light Green */
+}
+
+ul {
+  list-style: circle;
+}
+
+li {
+  padding: 5px 0;
+}
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #FFFDD1; /* Light Yellow */
+  overflow: hidden; /* This will keep any floating elements within the div. Comment this property out to see what would happen otherwise */
+  border-left: solid 10px #69643D; /* Dark Green */
+  border-right: solid 10px #69643D; /* Dark Green */
+}
+
+.eggplant-image {
+  width: 500px;
+  display: block; /* Changing the display from inline to block allows you to center it using the margin */
+  margin: 0 auto;
+  border-radius: 1px 25px; /* Rounds corners */
+}
+
+.yield {
+  width: 45%;
+  float: left;
+  margin: 2.5%;
+}
+
+.time {
+  width: 45%;
+  float: left;
+  margin: 2.5%;
+}
+
+.ingredients {
+  float: left;
+  width: 33%;
+  margin: 1%;
+  padding: 15px 30px;
+  clear: both;
+  background: #523246; /* Purple */
+  border-radius: 15px;
+  color: #FFFDD1; /* Light Yellow */
+}
+
+.steps {
+  float: right;
+  width: 63%;
+  margin: 1%;
+  padding: 15px 30px;
+  background: #523246; /* Purple */
+  border-radius: 15px;
+  color: #FFFDD1; /* Light Yellow */
+}
